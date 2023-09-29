@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0078d4, #ff6f61); /* Gradient from blue to orange */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.header {
+    text-align: center;
+    background-color: lightslategray; 
+    color: black;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+
+
+.profile-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.section-content {
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: bold;
+}
